@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:auto;
+}
+body{
+    background-image: url(img/hero-big.jpg);
+    height: 110vh;
+    width:1900px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+    align-content: center;
+    
+}
+
+.logo{
+    font-family:'Calibri';
+    font-size: 50px;
+    color: white;
+}
+
+.nav a{
+    padding-right: 20px;
+    text-decoration: none;
+    color:white;
+    font-family: 'calibri';
+    font-size: 25px;
+}
+
+.buttonlink{
+    color: white;
+    text-decoration: none;
+    font-family: 'calibri';
+    font-size: 28px;
+    border: 2px solid #FFBF00;
+    border-radius: 5px;
+    padding: 20px;   
+}
+
+.titre{
+    text-align: center;
+    color: white;
+    font-family: 'calibri';
+}
+
+.titre h1{
+    font-size: 90px;
+}
+
+.titre h2{
+    font-weight: lighter;
+}
+
+.loremips{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: 'calibri';
+    padding-top: 30px;
+}
+
+.loremips a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(148, 147, 147, 0.5);
+    padding: 100px 50px 100px 50px;
+    align-items: center;
+   
+}
